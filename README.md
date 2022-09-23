@@ -7,8 +7,7 @@
 >Hora Agora
 
 Projeto construído no curso de Javascript da plataforma Curso em Vídeo.
-Realizados alguns implementos pessoais:
-- As imagens de centro foram dimensionadas por CSS (no curso o professor manipulou no PS)
+Realizado implemento pessoal:
 - Background em vídeo que se altera conforme a fase do dia (manhã - tarde - noite).
 
 [Clique Aqui Para Acesar](https://vasquesjp.github.io/HoraAgora)
