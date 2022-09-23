@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Agora</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Hora Agora</h1>
+    </header>
+    <section>
+       <div id="video1">
+        <video autoplay muted loop id="myVideo">
+            <source src="./src/videos/manha.mp4" type="video/mp4">
+        </video></div>
+        <div id="video2">
+            <video autoplay muted loop id="myVideo">
+                <source src="./src/videos/tarde.mp4" type="video/mp4">
+            </video></div>
+            <div id="video3">
+                <video autoplay muted loop id="myVideo">
+                    <source src="./src/videos/noite.mp4" type="video/mp4">
+                </video></div>
+        <div id="msg">
+            Aqui vai aparecer a hora
+        </div><br>
+        <div id="foto">
+            <img id="imagem" src="./src/imagens/foto_manha.png" alt="foto do dia">
+        </div>
+    </section></br>
+    <footer>
+        Developed by João Paulo Vasques.
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
