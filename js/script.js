@@ -22,7 +22,7 @@ function carregar() {
 
     msg.innerHTML = `Agora são ${hora}:${mints}:${segundos} horas.`
     
-    if (hora >= 0 && hora < 12) {
+    if (hora >= 6 && hora < 12) {
          //BOM DIA!
         img.src = './src/imagens/foto_manha.png'
         video1.style.display = 'block';
