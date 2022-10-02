@@ -12,33 +12,37 @@ function carregar() {
 
     if (hora < 10){
         hora = "0" + hora
-    }
+    } 
     if (mints < 10){
         mints = "0" + mints
-    }
+    } 
     if (segundos < 10){
         segundos = "0" + segundos
     }
-
-    msg.innerHTML = `Agora são ${hora}:${mints}:${segundos} horas.`
-    
+   
     if (hora >= 6 && hora < 12) {
          //BOM DIA!
         img.src = './src/imagens/foto_manha.png'
         video1.style.display = 'block';
         video2.style.display = 'none';
         video3.style.display = 'none';
+        msg.innerHTML = `Bom Dia!<p>Agora são ${hora}:${mints}:${segundos} horas.</p>`
+
     } else if (hora >= 12 && hora < 18) {
         //BOA TARDE!
         img.src = './src/imagens/foto_tarde.png'
         video1.style.display = 'none';
         video2.style.display = 'block';
         video3.style.display = 'none';
+        msg.innerHTML = `Boa Tarde!<p>Agora são ${hora}:${mints}:${segundos} horas.</p>`
+
     } else {
         //BOA NOITE!
         img.src = './src/imagens/foto_noite.png'
         video1.style.display = 'none';
         video2.style.display = 'none';
         video3.style.display = 'block';
+        msg.innerHTML = `Boa Noite!<p>Agora são ${hora}:${mints}:${segundos} horas.</p>`
+
     }
 }

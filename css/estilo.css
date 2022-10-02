@@ -5,20 +5,22 @@ font: normal 15pt Arial;
 
 header
 {
-color: white;
+color: rgb(243, 242, 242);
 text-align: center;
-text-shadow: 2px 2px 2px red;
+text-shadow: 2px 2px 2px rgb(255, 126, 5);
+font: bold 20pt serif;
 }
 
 section {
 background: rgba(255, 255, 255, 0.781);
 border-radius: 10px;
 padding: 15px;
-width: 100%;
+width: 90%;
 margin: auto;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
 text-align: center;
 max-width: 500px;
+display: grid;
 }
 
 div#msg {
@@ -27,8 +29,16 @@ div#msg {
     text-shadow: 3px;
 }
 
+img#imagem {
+    width: 90%;
+    max-width: 285px;
+    margin: auto;
+    text-shadow: 3px;
+    display: grid;
+}
+
 footer {
-color: white;
+color: rgb(255, 255, 255);
 text-align: center;
 text-shadow: 5px 5px 5px black;
 font-style: italic;
